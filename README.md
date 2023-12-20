@@ -9,7 +9,7 @@ Currently, two official plugins are available:
 
 ## Getting Started
 
-1. Clone the repository: `git clone https://github.com/yourusername/yourrepository.git`
+1. Clone the repository: `git clone https://github.com/irfan-iiitr/social-media.git`
 2. Install dependencies: `npm install`
 3. Start the development server: `npm run dev`
 
