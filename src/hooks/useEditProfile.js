@@ -14,7 +14,7 @@ const useEditProfile = () => {
 	const setUserProfile = useUserProfileStore((state) => state.setUserProfile);
 
 	const showToast = useShowToast();
-
+  
 	const editProfile = async (inputs, selectedFile) => {
 		if (isUpdating || !authUser) return;
 		setIsUpdating(true);

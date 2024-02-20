@@ -20,7 +20,7 @@ const styles= {
 }
 
 // 3. extend the theme
-const theme = extendTheme({ config })
+const theme = extendTheme({ config });
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(

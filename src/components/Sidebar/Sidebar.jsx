@@ -8,6 +8,7 @@ import { FaSearch } from "react-icons/fa";
 import { BiLogOut } from "react-icons/bi";
 import useLogout from '../../hooks/useLogout';
 import SidebarItems from './SideBarItems';
+import { Image } from '@chakra-ui/react';
 
 const Sidebar = () => {
  
@@ -25,11 +26,10 @@ const Sidebar = () => {
     >
 
       <Flex direction={"column"} gap={10} w="full" height="full" >
-        <Link to="/" as={RouterLink} pl={2} display={{base:"none", md:"block"}} cursor="pointer" ><InstagramLogo></InstagramLogo></Link>
+        <Link to="/" as={RouterLink} pl={2} display={{base:"none", md:"block"}} cursor="pointer" ><Image src="/logo4.png"></Image></Link>
         <Link to="/" as={RouterLink} pl={2} display={{base:"block", md:"none"}} cursor="pointer" 
         borderRadius={6}
         _hover={{bg:"whiteAlpha.200"}} w={10}>
-          <InstagramMobileLogo />
         </Link>
 
         {/* SideBar Items */}

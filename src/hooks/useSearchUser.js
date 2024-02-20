@@ -14,6 +14,7 @@ const useSearchUser = () => {
         setIsLoading(true);
         setUser(null);
         try {
+            const lowerCaseUsername = username.toLowerCase();
             const q = query(collection(firestore, "users"), where("username", "==", username));
             const querySnapshot = await getDocs(q);
 

@@ -8,7 +8,7 @@ const useGetUserProfileById = (userId) => {
 	const [userProfile, setUserProfile] = useState(null);
 
 	const showToast = useShowToast();
-
+	
 	useEffect(() => {
 		const getUserProfile = async () => {
 			setIsLoading(true);

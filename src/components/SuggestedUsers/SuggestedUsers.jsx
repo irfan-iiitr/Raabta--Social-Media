@@ -31,7 +31,7 @@ const SuggestedUsers = () => {
 
       <Box fontSize={12} color={"gray.500"} mt={5} alignSelf={"start"} >
         Built By {" "}
-        <Link href="/" target='_blank' color='blue.500' fontSize={14}> As a Programmer</Link>
+        <Link href="https://github.com/irfan-iiitr" target='_blank' color='blue.500' fontSize={14}> Irfan Ansari</Link>
       </Box>
     </VStack>
   )

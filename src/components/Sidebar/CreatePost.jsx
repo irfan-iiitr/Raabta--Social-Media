@@ -16,7 +16,7 @@ import {
 	Tooltip,
 	useDisclosure,
 } from "@chakra-ui/react";
-import { CreatePostLogo } from "../../assets/Constant";
+import { BiSolidImageAdd } from "react-icons/bi";
 import { BsFillImageFill } from "react-icons/bs";
 import { useRef, useState } from "react";
 import usePreviewImg from "../../hooks/usePreviewImg";
@@ -69,7 +69,7 @@ const CreatePost = () => {
 					justifyContent={{ base: "center", md: "flex-start" }}
 					onClick={onOpen}
 				>
-					<CreatePostLogo />
+					<BiSolidImageAdd  size={"30"}/>
 					<Box display={{ base: "none", md: "block" }}>Create</Box>
 				</Flex>
 			</Tooltip>

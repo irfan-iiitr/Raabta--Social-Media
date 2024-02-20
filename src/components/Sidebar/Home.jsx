@@ -1,5 +1,5 @@
 import { Box, Link, Tooltip } from "@chakra-ui/react";
-import { AiFillHome } from "react-icons/ai";
+import { MdOutlineRssFeed } from "react-icons/md";
 import { Link as RouterLink } from "react-router-dom";
 
 const Home = () => {
@@ -24,8 +24,8 @@ const Home = () => {
 				w={{ base: 10, md: "full" }}
 				justifyContent={{ base: "center", md: "flex-start" }}
 			>
-				<AiFillHome size={25} />
-				<Box display={{ base: "none", md: "block" }}>Home</Box>
+				<MdOutlineRssFeed   size={"30"} />
+				<Box display={{ base: "none", md: "block" }}>Feed</Box>
 			</Link>
 		</Tooltip>
 	);
